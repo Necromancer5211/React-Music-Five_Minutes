@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e29ee6c7-282d-4974-854d-8cc1ea199495" name="Default Changelist" comment="" />
+    <list default="true" id="e29ee6c7-282d-4974-854d-8cc1ea199495" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -30,10 +53,44 @@
       <option name="presentableId" value="Default" />
       <updated>1599789523697</updated>
       <workItem from="1599789525127" duration="91000" />
+      <workItem from="1599800453464" duration="2615000" />
+      <workItem from="1599803436391" duration="368000" />
+      <workItem from="1599803909876" duration="227000" />
+      <workItem from="1599804148223" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="700" y="445" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1599804242981">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="700" y="445" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599804242981" />
+    <state x="695" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599802444559">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="695" y="322" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599802444559" />
+    <state x="738" y="317" key="FileChooserDialogImpl" timestamp="1599804130482">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="738" y="317" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599804130482" />
+    <state x="514" y="184" key="SettingsEditor" timestamp="1599804200180">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="514" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599804200180" />
   </component>
 </project>
