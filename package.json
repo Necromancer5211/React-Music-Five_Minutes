@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
-    "lint": "eslint ."
+    "start-w": "webpack-dev-server",
+    "lint": "eslint .",
+    "build-dev": "webpack --config webpack.config.js --progress --profile --colors"
   },
   "dependencies": {
     "babel-core": "6.24.1",
@@ -21,7 +23,7 @@
     "express-session": "1.10.1",
     "mongoose": "5.0.4",
     "morgan": "~1.9.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "4",
     "passport": "0.3.2",
     "passport-local": "1.0.0",
     "passport-local-mongoose": "4.0.0",
@@ -39,6 +41,8 @@
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "^7.0.1",
     "jest": "19.0.2",
-    "supertest": "3.0.0"
+    "react-hot-loader": "3.0.0",
+    "supertest": "3.0.0",
+    "webpack-dev-server": "2.4.5"
   }
 }
