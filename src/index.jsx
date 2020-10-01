@@ -1,21 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import TestComponent from './testcomponent';
+import Template from './components/Template';
 
 const renderApp = (Component) => {
   render(
     <AppContainer>
-      <TestComponent headline="Test Headline" count={1234} showCount />
+      <Template />
     </AppContainer>,
     document.querySelector('#react-app'),
   );
 };
 
-renderApp(TestComponent);
+renderApp(Template);
 
 if (module && module.hot) {
-  module.hot.accept('./testcomponent.jsx', () => {
-    renderApp(TestComponent);
-  });
+  module.hot.accept();
 }

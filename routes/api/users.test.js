@@ -1,13 +1,15 @@
+import 'regenerator-runtime/runtime';
+
 const request = require('supertest');
 
 describe('The User API', () => {
-    it('Returns a list of all users', async () => {
-        const res = await request('http://localhost:3000')
+  it('Returns a list of all users', async () => {
+    const res = await request('http://localhost:3000')
             .get('/api/users/lists')
             .expect(200)
             .expect('Content-Type', /json/);
-        expect(Array.isArray(res.body)).toBe(true);
-        expect(res.body.length).toBeGreaterThan(0);
-        expect(res.body[0].username).toBe('administrator');
-    });
+    expect(Array.isArray(res.body)).toBe(true);
+    expect(res.body.length).toBeGreaterThan(0);
+    expect(res.body[0].username).toBe('administrator');
+  });
 });
